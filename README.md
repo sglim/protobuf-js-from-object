@@ -1,0 +1,1 @@
+# protobuf-js-from-object
