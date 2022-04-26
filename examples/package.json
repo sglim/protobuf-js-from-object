@@ -1,0 +1,14 @@
+{
+  "main": "index.js",
+  "repository": "git@github.com:sglim/protobuf-js-from-object.git",
+  "author": "Seung-gi Lim <seung.gi.lim@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ts-protoc-gen": "^0.15.0",
+    "typescript": "^4.5.4"
+  }
+}

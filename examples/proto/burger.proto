@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+message Burger {
+    string name = 1;
+    bool has_lettuce = 2;
+    int32 calories = 3;
+    repeated string ingredients = 4;
+    SideMenu side_menu = 5;
+}
+
+message SideMenu {
+    enum Type {
+        UNKNOWN = 0;
+        FRENCH_FRIES = 1;
+        ONION_RING = 2;
+    }
+    Type type = 1;
+}
